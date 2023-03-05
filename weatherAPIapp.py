@@ -1,7 +1,7 @@
 # Allow to get the weather of any city in the world well as the tempreture and other information
 import requests
 
-API_KEY = '3dd5f356f91c54578f514590ed6dabfd'
+API_KEY = '' # add the api key visiting openweathermap.org
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 city = input("Enter a city name: ")
